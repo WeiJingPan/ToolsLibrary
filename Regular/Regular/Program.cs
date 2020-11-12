@@ -17,6 +17,7 @@ namespace Regular
                 Console.WriteLine("g1 = {0}", g1);
                 Console.WriteLine("g2 = {0}", g2);
             }
+            
         }
     }
 }

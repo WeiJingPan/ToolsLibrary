@@ -686,23 +686,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\v_wjjwpan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS_Space\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
+      "projectUniqueName": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
       "projectName": "Regular",
-      "projectPath": "E:\\VS_Space\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\VS_Space\\ToolsLibrary\\Regular\\Regular\\obj\\",
+      "projectPath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
+      "packagesPath": "C:\\Users\\v_wjjwpan\\.nuget\\packages\\",
+      "outputPath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\v_wjjwpan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -732,10 +728,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Users\\v_wjjwpan\\.dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
