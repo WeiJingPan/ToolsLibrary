@@ -19,9 +19,6 @@ namespace Regular
                 Console.WriteLine("g1 = {0}", g1);
                 Console.WriteLine("g2 = {0}", g2);
             }
-<<<<<<< HEAD
-            
-=======
 
             
             PrintStringSplit("二分，回溯，递归，分治".Split("[，；\\s]+"));
@@ -39,7 +36,6 @@ namespace Regular
             {
                 Console.WriteLine(str);
             }
->>>>>>> c0dac0b00b1dece27b3000240f6d4445ad40a27e
         }
     }
 }
