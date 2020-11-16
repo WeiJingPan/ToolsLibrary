@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ca7b644-8f45-452b-bcb5-4b702aeee0a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Regular/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Regular/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Regular/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Regular/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/Debug/netcoreapp2.2/Regular.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/Regular.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/Regular.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/Regular.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/Regular.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="9ca7b644-8f45-452b-bcb5-4b702aeee0a7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Regular/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,6 +67,7 @@
       <workItem from="1605022501712" duration="1164000" />
       <workItem from="1605108610319" duration="2641000" />
       <workItem from="1605529769393" duration="61000" />
+      <workItem from="1605530024554" duration="591000" />
     </task>
     <servers />
   </component>

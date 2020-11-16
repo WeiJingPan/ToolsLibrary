@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nYB2I3uPq9u9E80RPPvZBH19yhkN3hG9VpC7rdgoiqCFbRJ9vz0mmZwyKGvsEya7WS7WGKamFL2D9Q22yTDJFg==",
+  "dgSpecHash": "B6nib7RZC7oxYxaLgAFnDP2mKO3QLwM9zffxR46PBMZ8HCZgNIuSofw8k/QF8jwBO9J8kzxTXKYWgEESZl3rFw==",
   "success": true,
-  "projectFilePath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular.csproj",
+  "projectFilePath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\v_wjjwpan\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\v_wjjwpan\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

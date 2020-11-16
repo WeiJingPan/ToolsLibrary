@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
-    "projectName": "Regular",
-    "projectPath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\Regular.csproj",
-    "outputPath": "D:\\C_Spaces\\ToolsLibrary\\Regular\\Regular\\obj\\",
+    "projectUniqueName": "D:\\C_Spaces\\ToolsLibrary\\NPOIExcelHandler\\NPOIExcelHandler\\NPOIExcelHandler.csproj",
+    "projectName": "NPOIExcelHandler",
+    "projectPath": "D:\\C_Spaces\\ToolsLibrary\\NPOIExcelHandler\\NPOIExcelHandler\\NPOIExcelHandler.csproj",
+    "outputPath": "D:\\C_Spaces\\ToolsLibrary\\NPOIExcelHandler\\NPOIExcelHandler\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
-      "netcoreapp2.2"
+      "netcoreapp3.1"
     ],
     "sources": {
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netcoreapp2.2": {
+      "netcoreapp3.1": {
         "projectReferences": {}
       }
     },
@@ -24,15 +24,7 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.2": {
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.2.0, )",
-          "autoReferenced": true
-        }
-      },
+    "netcoreapp3.1": {
       "imports": [
         "net461",
         "net462",
@@ -43,6 +35,11 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
       "runtimeIdentifierGraphPath": "C:\\Users\\v_wjjwpan\\.dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
     }
   }
