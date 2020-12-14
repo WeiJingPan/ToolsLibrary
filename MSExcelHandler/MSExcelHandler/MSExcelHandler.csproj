@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+        <HintPath>..\..\Libs\msExcel\Microsoft.Office.Interop.Excel.dll</HintPath>
+      </Reference>
+      <Reference Include="office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+        <HintPath>..\..\Libs\msExcel\Office.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
