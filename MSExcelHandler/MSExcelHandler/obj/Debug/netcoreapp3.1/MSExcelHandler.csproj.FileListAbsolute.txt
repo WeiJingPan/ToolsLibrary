@@ -1,0 +1,16 @@
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.exe
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.deps.json
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.runtimeconfig.json
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.runtimeconfig.dev.json
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.dll
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\MSExcelHandler.pdb
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\Microsoft.Office.Interop.Excel.dll
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\bin\Debug\netcoreapp3.1\Office.dll
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.csprojAssemblyReference.cache
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.AssemblyInfoInputs.cache
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.AssemblyInfo.cs
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.csproj.CoreCompileInputs.cache
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.csproj.CopyComplete
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.dll
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.pdb
+D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\obj\Debug\netcoreapp3.1\MSExcelHandler.genruntimeconfig.cache
