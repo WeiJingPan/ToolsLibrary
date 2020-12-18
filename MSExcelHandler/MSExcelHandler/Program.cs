@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
+using Microsoft.Office.Core;
 using Microsoft.Office.Interop.Excel;
 using Range = Microsoft.Office.Interop.Excel.Range;
 
@@ -12,6 +14,7 @@ namespace MSExcelHandler
     {
         static void Main(string[] args)
         {
+            /*
             var sw = new Stopwatch();
             sw.Start();
             var _xlsApp = new ApplicationClass();
@@ -55,12 +58,10 @@ namespace MSExcelHandler
             string[,] martix = new string[matrixHeight, matrixWidth];
 
             for (int i = 0; i < matrixHeight; i++)
-
-            for (int j = 0; j < matrixWidth; j++)
-
-            {
-                martix[i, j] = String.Format("{0}_{1}", i + 1, j + 1);
-            }
+                for (int j = 0; j < matrixWidth; j++)
+                {
+                    martix[i, j] = String.Format("{0}_{1}", i + 1, j + 1);
+                }
 
             string startColName = GetColumnNameByIndex(0);
 
@@ -76,7 +77,7 @@ namespace MSExcelHandler
 
             //之二：
 
-            //Excel.Range range4 = xlsSheet.get_Range(String.Format("{0}{1}", startColName, 1), String.Format("{0}{1}", endColName, martixHeight));
+            //Range range4 = xlsSheet.get_Range(String.Format("{0}{1}", startColName, 1), String.Format("{0}{1}", endColName, martixHeight));
 
             range4.Value2 = martix;
 
@@ -100,8 +101,7 @@ namespace MSExcelHandler
 
             xlsSheet.get_Range(colName + rowIndex.ToString(), Type.Missing).Rows.RowHeight = 40;
 
-            xlsSheet.get_Range(colName + rowIndex.ToString(), Type.Missing).Columns.Interior.Color =
-                Color.Blue.ToArgb(); //单格颜色
+            xlsSheet.get_Range(colName + rowIndex.ToString(), Type.Missing).Columns.Interior.Color = Color.Blue.ToArgb(); //单格颜色
 
             xlsSheet.get_Range(5 + ":" + 7, Type.Missing).Rows.Interior.Color = Color.Yellow.ToArgb(); //第5行到第7行的颜色
 
@@ -133,9 +133,37 @@ namespace MSExcelHandler
             TimeSpan ts2 = sw.Elapsed;
             //Console.WriteLine("花费时间是：{0}", sw.ElapsedMilliseconds * 1000.0 / Stopwatch.Frequency);
             Console.WriteLine("花费时间是：{0}", ts2.TotalMilliseconds / 1000.0f);
-        }
-        //将column index转化为字母，至多两位
+            */
+            
+            //在某个区域写入数据数组
+            var savePath = @"D:\C_Spaces\ToolsLibrary\MSExcelHandler\MSExcelHandler\Third.xlsx";
+            // var matrixHeight = 20;
+            // var matrixWidth = 20;
+            // var martix = new string[matrixHeight, matrixWidth];
+            //
+            // for (var i = 0; i < matrixHeight; i++)
+            //     for (var j = 0; j < matrixWidth; j++)
+            //     {
+            //         martix[i, j] = String.Format("{0}_{1}", i + 1, j + 1);
+            //     }
+            //
+            // MSExcelManager.Inst.WriteToExcel(savePath, martix, matrixHeight, matrixWidth);
 
+            var list_range = MSExcelManager.Inst.ReadingExcel(savePath);
+            foreach (var row in list_range.Rows)
+            {
+                var curRow = (DataRow)row;
+                // foreach (var column in curRow)
+                // {
+                //     Console.WriteLine("{0}\t", column);
+                // }
+                
+                Console.WriteLine("\n");
+            }
+
+        }
+        
+        //将column index转化为字母，至多两位
         public static string GetColumnNameByIndex(int index)
 
         {
